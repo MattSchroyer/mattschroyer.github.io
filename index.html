@@ -4,9 +4,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <title>mattschroyer.github.io</title>
-
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="scripts/scale.fix.js"></script>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/pygment_trac.css">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -16,84 +16,132 @@
     <div class="wrapper">
       <header>
         <h1>Matthew Schroyer</h1>
-        <p>Working with HTML5, CSS, JavaScript, R, Python, and Arduino to answer questions and find solutions.</p>
+        <p>Working with JS, React, Arduinos, and other tools answer questions and find solutions.</p>
 
 
-        <p class="view"><a href="https://github.com/MattSchroyer">View My GitHub Profile</a></p>
-		<p class="view"><a href="http://www.mentalmunition.com/">Visit My Blog</a></p>
-		<p class="view"><a href="https://www.linkedin.com/in/mattschroyer">View My LinkedIn Profile</a></p>
-		<p class="view"><a href="https://twitter.com/MattSchroyer">Visit My Twitter account</a></p>
-		<p class="view"><a href="http://www.mentalmunition.com/p/about-author.html">Read my Bio</a></p>
+        <p class="view"><a href="https://github.com/MattSchroyer">GitHub</a></p>
+		    <p class="view"><a href="http://www.mentalmunition.com/">Mental Munition LLC Blog</a></p>
+		    <p class="view"><a href="https://www.linkedin.com/in/mattschroyer">LinkedIn</a></p>
+		    <p class="view"><a href="http://www.mentalmunition.com/p/about-author.html">Longform Bio</a></p>
 
       </header>
       <section>
-    <a href="https://labs.exaptive.city/xap/b2b8a940-224e-11e8-8c1e-6d6c7ec5b4e7?version=0.10.1"><h2>Excel to 3D Terrain Application</h2></a>
-    <p>
-      <IMG SRC="./img/excel_to_terrain.png">
-    </p>
-    <p>
-      This application will turn an Excel spreadsheet into a 3D terrain. Each of the three dimensions of the terrain can be mapped to a dimension of the spreadsheet data. Various qualities of the terrain, such as color, resolution, and smoothness can be set. Additionally, the user can place "pins" in the terrain, which can identify and display the underlying data from spreadsheet. On load, generates initial terrain with the "MTCars" dataset, which is a set of car specifications from the 1970s. Built as a "xap" (application) in the Exaptive Studio, featuring Three.js and Semantic UI libraries.
-    </p>
-    <ul>
-      <li>
-        <a href="https://labs.exaptive.city/xap/b2b8a940-224e-11e8-8c1e-6d6c7ec5b4e7?version=0.10.1">Go to the Xap</a>
-      </li>
-    </ul>
-		<a href="https://github.com/MattSchroyer/kaceboard/tree/master"><h2>KACEboard</h2></a>
-		<p>
-      <IMG SRC="./img/kace_dashboard_screenshot.jpg">
-    </p>
-		<p>
-      This is a simplified KACE dashboard, which allows the user to select from a number of available service providers, see the ticket list for the provider, and receive a chart showing historical ticket activity. User also can save the chart for reports or external use. Uses PHP5 and highcharts.js. Based on the <a href="https://github.com/jasonrap/KaceBootstrap">Twitter Bootstrap for Kace Service Desk</a> developed by Jason Rappaport of Drexel University.
-    </p>
-		<ul>
-			<li><a href="https://github.com/MattSchroyer/kaceboard/tree/master">Go to the repo in GitHub</a></li>
-		</ul>
-		<a href="http://mattschroyer.github.io/roomfinder3d"><h2>Room Finder and 3D Floorplan</h2></a>
-		<p> <IMG SRC="./img/classroom_finder_screenshot.jpg"></p>
-		<p>A simple application to locate a classroom on the OCCC main campus and visualize multi-story floorplans in 3D. Uses HTML5, ajax, CesiumJS, and GIS files.</p>
-		<ul>
-			<li><a href="https://github.com/mattschroyer/roomfinder3d">Go to the repo in GitHub</a></li>
-			<li><a href="http://mattschroyer.github.io/roomfinder3d">Go to the roomfinder</a></li>
-		</ul>
-		<a href="http://mattschroyer.github.io/airOKC"><h2>Air OKC Scrape-n-Viz</h2></a>
-		<p> <IMG SRC="./img/air_okc_screenshot.jpg"></p>
-		<p>Building on the success of the <a href="http://dustduino.org/">DustDuino</a> <a href="http://www.mentalmunition.com/search/label/dustduino">IoT initiative</a>, AirOKC is a "serverless" scraping and visualization platform. Ozone readings are scraped from the Oklahoma Department of Environmental Quality (ODEQ) monitor 401090033 on an hourly basis. The back-end is a Google Sheet fed via a scraping script. On the front-end, Tabletop reads the sheets, while d3 handles the viz. Please allow the chart several seconds to load; Google Sheets is not the quickest data host.</p>
-		<ul>
-			<li><a href="https://github.com/mattschroyer/airokc">Go to the repo in GitHub</a></li>
-			<li><a href="http://mattschroyer.github.io/airOKC">Go to Air OKC</a></li>
-		</ul>
-        <a href="http://mattschroyer.github.io/traffic"><h2>Traffic Dataviz</h2></a>
-		<p> <IMG SRC="./img/traffic_dataviz_screenshot.jpg"></p>
-		<p>A vizualization of a morning commute from January to August 2015 in the OKC metro area. GPS data was logged on an Android device, parsed with Python, and vizualized using Cesium.js and a CartoDB basemap.</p>
-		<ul>
-			<li><a href="https://github.com/mattschroyer/traffic">Go to the repo in GitHub</a></li>
-			<li><a href="http://mattschroyer.github.io/traffic">Go to the Traffic Dataviz</a></li>
-		</ul>
-		<a href="http://mattschroyer.github.io/heart"><h2>Three.js Heart Viz</h2></a>
-		<p> <IMG SRC="./img/heart_viz_screenshot.jpg"></p>
-		<p>Developed for a college anatomy class, this Three.js visualizes a model of a human heart. With this heart visualization, students can study the heart, even on a smartphone while they're on the bus. This digital version of the physical model was scanned using hundreds of photos, and digitized using Agisoft Photoscan. Three.js provides an easy way to render the .obj and .mtl files that are exported by Photoscan.</p>
-		<ul>
-			<li><a href="https://github.com/mattschroyer/heart">Go to the repo in GitHub</a></li>
-			<li><a href="http://mattschroyer.github.io/heart">Three.js Heart Viz</a></li>
-		</ul>
-		<br>
-		<br>
-		 <a href="http://mattschroyer.github.io/elkmtn/"><h2>Hike up Elk Mountain</h2></a>
-		<p> <IMG SRC="./img/elk_mtn_screenshot.jpg"></p>
-		<p>A virtual trip up Elk Mountain in Oklahoma, using HTML5, GIS files, Cesium.js, and Panellum.js. The user can visualize the path up the mountain, its relationship surrounding mixed grass prairie, and sample the flora and fauna (including the state reptile).</p>
-		<ul>
-			<li><a href="https://github.com/mattschroyer/elkmtn">Go to the repo in GitHub</a></li>
-			<li><a href="http://www.mentalmunition.com/2015/11/climbing-virtual-mountain-cesium-and.html">Explanatory blog post</a></li>
-			<li><a href="http://mattschroyer.github.io/elkmtn/">Go up Elk Mountain</a>
-		</ul>
-		<br>
+
+        <div class="project_card">
+          <a href="https://mattschroyer.github.io/buddy-cue/"><h2>Buddy Cue</h2></a>
+          <p><IMG SRC="./img/buddy_cue_screenshot.png"></p>
+          <p>
+            Buddy Cue is a React SPA to simplify the time-intensive process of smoking pulled pork.
+            It will generate a time estimate for pulled pork based on weight, and notify you if your
+            temperatures are not meeting targets to finish on schedule.
+          </p>
+          <ul>
+            <li><a href="https://mattschroyer.github.io/buddy-cue/">Launch Buddy Cue</a></li>
+            <li><a href="https://github.com/MattSchroyer/buddy-cue">Go to the repo in GitHub</a></li>
+          </ul>
+        </div>
+	
+        <div class="project_card">
+          <a href="https://labs.exaptive.city/xap/b2b8a940-224e-11e8-8c1e-6d6c7ec5b4e7?version=0.10.1"><h2>Excel to 3D Terrain Application</h2></a>
+          <p><IMG SRC="./img/excel_to_terrain.png"></p>
+          <p>
+            This application will turn an Excel spreadsheet into a 3D terrain.
+            Each of the three dimensions of the terrain can be mapped to a dimension of the spreadsheet data.
+            Various qualities of the terrain, such as color, resolution, and smoothness can be set.
+            Additionally, the user can place "pins" in the terrain, which can identify and display 
+            the underlying data from spreadsheet. On load, generates initial terrain with the "MTCars" dataset,
+            which is a set of car specifications from the 1970s. Built as a "xap" (application) in the Exaptive Studio,
+            featuring Three.js and Semantic UI libraries.
+          </p>
+          <ul>
+            <li><a href="https://labs.exaptive.city/xap/b2b8a940-224e-11e8-8c1e-6d6c7ec5b4e7?version=0.10.1">Go to the Xap</a></li>
+          </ul>
+        </div>
+
+        <div class="project_card">
+          <a href="https://github.com/MattSchroyer/kaceboard/tree/master"><h2>KACEboard</h2></a>
+          <p><IMG SRC="./img/kace_dashboard_screenshot.jpg"></p>
+          <p>
+            This is a simplified KACE dashboard, which allows the user to select from a number of available
+            service providers, see the ticket list for the provider, and receive a chart showing historical
+            ticket activity. User also can save the chart for reports or external use. Uses PHP5 and highcharts.js.
+            Based on the <a href="https://github.com/jasonrap/KaceBootstrap">Twitter Bootstrap for Kace Service Desk</a>
+            developed by Jason Rappaport of Drexel University.
+          </p>
+          <ul>
+            <li><a href="https://github.com/MattSchroyer/kaceboard/tree/master">Go to the repo in GitHub</a></li>
+          </ul>
+        </div>
+        
+        <div class="project_card">
+          <a href="http://mattschroyer.github.io/roomfinder3d"><h2>Room Finder and 3D Floorplan</h2></a>
+          <p><IMG SRC="./img/classroom_finder_screenshot.jpg"></p>
+          <p>A simple application to locate a classroom on the OCCC main campus and visualize multi-story floorplans in 3D. Uses HTML5, ajax, CesiumJS, and GIS files.</p>
+          <ul>
+            <li><a href="https://github.com/mattschroyer/roomfinder3d">Go to the repo in GitHub</a></li>
+            <li><a href="http://mattschroyer.github.io/roomfinder3d">Go to the roomfinder</a></li>
+          </ul>
+        </div>
+        
+        <div class="project_card">
+          <a href="http://mattschroyer.github.io/airOKC"><h2>Air OKC Scrape-n-Viz</h2></a>
+          <p><IMG SRC="./img/air_okc_screenshot.jpg"></p>
+          <p>Building on the success of the <a href="http://dustduino.org/">DustDuino</a> <a href="http://www.mentalmunition.com/search/label/dustduino">IoT initiative</a>, AirOKC is a "serverless" scraping and visualization platform. Ozone readings are scraped from the Oklahoma Department of Environmental Quality (ODEQ) monitor 401090033 on an hourly basis. The back-end is a Google Sheet fed via a scraping script. On the front-end, Tabletop reads the sheets, while d3 handles the viz. Please allow the chart several seconds to load; Google Sheets is not the quickest data host.</p>
+          <ul>
+            <li><a href="https://github.com/mattschroyer/airokc">Go to the repo in GitHub</a></li>
+            <li><a href="http://mattschroyer.github.io/airOKC">Go to Air OKC</a></li>
+          </ul>
+        </div>
+        
+        <div class="project_card">
+          <a href="http://mattschroyer.github.io/traffic"><h2>Traffic Dataviz</h2></a>
+          <p><IMG SRC="./img/traffic_dataviz_screenshot.jpg"></p>
+          <p>
+            A vizualization of a morning commute from January to August 2015 in the OKC metro area.
+            GPS data was logged on an Android device, parsed with Python, and vizualized using Cesium.js
+            and a CartoDB basemap.
+          </p>
+          <ul>
+            <li><a href="https://github.com/mattschroyer/traffic">Go to the repo in GitHub</a></li>
+            <li><a href="http://mattschroyer.github.io/traffic">Go to the Traffic Dataviz</a></li>
+          </ul>
+        </div>
+        
+        <div class="project_card">
+          <a href="http://mattschroyer.github.io/heart"><h2>Three.js Heart Viz</h2></a>
+          <p> <IMG SRC="./img/heart_viz_screenshot.jpg"></p>
+          <p>
+            Developed for a college anatomy class, this Three.js visualizes a model of a human heart.
+            With this heart visualization, students can study the heart, even on a smartphone while they're on the bus.
+            This digital version of the physical model was scanned using hundreds of photos, and digitized using
+            Agisoft Photoscan. Three.js provides an easy way to render the .obj and .mtl files that are
+            exported by Photoscan.
+          </p>
+          <ul>
+            <li><a href="https://github.com/mattschroyer/heart">Go to the repo in GitHub</a></li>
+            <li><a href="http://mattschroyer.github.io/heart">Three.js Heart Viz</a></li>
+          </ul>
+        </div>
+        
+        <div class="project_card">
+          <a href="http://mattschroyer.github.io/elkmtn/"><h2>Hike up Elk Mountain</h2></a>
+          <p><IMG SRC="./img/elk_mtn_screenshot.jpg"></p>
+          <p>
+            A virtual trip up Elk Mountain in Oklahoma, using HTML5, GIS files, Cesium.js, and Panellum.js.
+            The user can visualize the path up the mountain, its relationship surrounding mixed grass prairie,
+            and sample the flora and fauna (including the state reptile).
+          </p>
+          <ul>
+            <li><a href="https://github.com/mattschroyer/elkmtn">Go to the repo in GitHub</a></li>
+            <li><a href="http://www.mentalmunition.com/2015/11/climbing-virtual-mountain-cesium-and.html">Explanatory blog post</a></li>
+            <li><a href="http://mattschroyer.github.io/elkmtn/">Go up Elk Mountain</a>
+          </ul>
+        </div>
+        
       </section>
       <footer>
         <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
       </footer>
     </div>
-    <script src="javascripts/scale.fix.js"></script>
-
   </body>
 </html>

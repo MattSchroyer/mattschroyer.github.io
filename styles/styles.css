@@ -176,6 +176,10 @@ hr {
   margin:0 0 20px;
 }
 
+.project_card {
+  padding: 12px 0;
+}
+
 footer {
   width:270px;
   float:left;

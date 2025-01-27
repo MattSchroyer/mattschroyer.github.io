@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
+@import url(/fonts/otf/Geist-Regular.otf);
 
 html {
   background-color:rgb(0, 0, 0);
@@ -6,7 +6,7 @@ html {
 
 body {
   padding:50px;
-  font:20px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font:20px "geistSansFont", arial;
   color:rgb(237, 237, 237);
   font-weight:300;
 }
